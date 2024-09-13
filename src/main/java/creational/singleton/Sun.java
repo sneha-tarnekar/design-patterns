@@ -1,4 +1,4 @@
 package creational.singleton;
 
-public class Samosa {
+public class Sun {
 }
