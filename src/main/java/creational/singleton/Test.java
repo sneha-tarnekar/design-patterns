@@ -10,6 +10,14 @@ public class Test {
         Sun sun2 = Sun.getSun();
         System.out.println(sun2.hashCode());
 
+        System.out.println();
+
+        Moon moon1 = Moon.getMoon();
+        System.out.println(moon1.hashCode());
+
+        Moon moon2 = Moon.getMoon();
+        System.out.println(moon2.hashCode());
+
     }
 
 }
