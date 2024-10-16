@@ -10,7 +10,11 @@ public class Sun {
 
     public static Sun getSun() {
         if(sun == null) {
-            sun = new Sun();
+            synchronized(Sun.class) {
+                if(sun == null) {
+                    sun = new Sun();
+                }
+            }
         }
         return sun;
     }
