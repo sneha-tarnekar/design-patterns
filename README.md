@@ -7,5 +7,7 @@
  - Structural Design Pattern
  - Behavioural Design Pattern
 
-
+## Creational Design Pattern
+ 
+### Singleton Design Pattern
 
